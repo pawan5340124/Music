@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   spec.swift_version  = '4.0'
   spec.source       = { :git => "https://github.com/saiasta/Music.git", :branch => "master", :tag => "1.0.0" }
-  spec.source_files  = "Music/**/*.{h,m}"
+  spec.source_files  = "Music/Music/**/*.{h,m}"
 #  spec.exclude_files = "Music/Music/**/*"
 end
