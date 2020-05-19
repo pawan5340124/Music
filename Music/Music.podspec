@@ -12,4 +12,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/saiasta/Music.git", :branch => "master", :tag => "1.0.0" }
   spec.source_files  = "Music/Music/**/*.{h,m}"
 #  spec.exclude_files = "Music/Music/**/*"
+spec.exclude_files = "Music/Music/*.plist"
+spec.ios.framework  = 'UIKit'
 end
