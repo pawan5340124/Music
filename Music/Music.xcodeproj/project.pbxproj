@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		872E10A42473FEA600889755 /* Music.h in Headers */ = {isa = PBXBuildFile; fileRef = 872E10A22473FEA600889755 /* Music.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872E10AB2473FEDD00889755 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872E10AA2473FEDD00889755 /* SpotifyiOS.framework */; };
 		872E10AD2473FF0500889755 /* EthoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E10AC2473FF0500889755 /* EthoRequest.swift */; };
 /* End PBXBuildFile section */
 
@@ -16,7 +15,6 @@
 		872E109F2473FEA600889755 /* Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		872E10A22473FEA600889755 /* Music.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
 		872E10A32473FEA600889755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		872E10AA2473FEDD00889755 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		872E10AC2473FF0500889755 /* EthoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthoRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -25,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872E10AB2473FEDD00889755 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +48,6 @@
 		872E10A12473FEA600889755 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				872E10AA2473FEDD00889755 /* SpotifyiOS.framework */,
 				872E10A22473FEA600889755 /* Music.h */,
 				872E10A32473FEA600889755 /* Info.plist */,
 				872E10AC2473FF0500889755 /* EthoRequest.swift */,
